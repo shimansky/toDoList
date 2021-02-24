@@ -1,0 +1,125 @@
+:root {
+--main-color: #ede8ff;
+--panel-color: #fbfaff;
+--dark-panel-color: #1a86d9;
+--brigth-text-color: #ffffff;
+--border-color: #0274cc;
+--small-text-color: #6e6c75;
+--big-text-color: #4d4c4f;
+--green-color: #74c700;
+--red-color: #d6411c;
+}
+
+body{
+	padding: 0;
+	margin: 0;
+	background-color: var(--main-color); 
+	text-align: center;
+}
+
+input{
+	margin: 10px;
+}
+
+h1{
+	margin:2px;
+}
+
+
+
+#header{
+	width: 80%;
+	height: 50px;
+	border-radius: 10px;
+	border:1px solid var(--border-color);
+	background-color: var(--dark-panel-color); 
+	color: var(--brigth-text-color);
+	display: inline-block;
+	text-align: center;
+	margin: 10px;
+	padding: 10px; 
+
+}
+
+
+
+.roundAddButton{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-color: var(--dark-panel-color); 
+	color: var(--brigth-text-color);
+	position: fixed;
+	bottom: 50px;
+	right: 50px;
+	z-index: 10;
+}
+
+.roundAddButton:hover{
+	background-color: var(--green-color);
+}
+
+.closeNoteButton{
+	width: 25px;
+	height: 25px;
+	border-radius: 2px;
+	background-color: var(--dark-panel-color); 
+	color: var(--brigth-text-color);
+	float: right;
+	margin-right: 10px;
+	position: relative;
+	top:-30px;
+}
+
+.closeNoteButton:hover{
+	background-color: var(--red-color);
+}
+
+.addNewTaskInThisNoteButton{
+	width: 25px;
+	height: 25px;
+	border-radius: 2px;
+	background-color: var(--dark-panel-color); 
+	color: var(--brigth-text-color);
+	margin-right: 10px;
+}
+
+.addNewTaskInThisNoteButton:hover{
+	background-color: var(--green-color);
+}
+
+.deleteThisTask{
+    width: 25px;
+	height: 25px;
+	border-radius: 2px;
+	background-color: var(--dark-panel-color); 
+	color: var(--brigth-text-color);
+	margin-left: 10px;
+}
+
+.deleteThisTask:hover{
+	background-color: var(--red-color);
+}
+
+.card{
+	width: 80%;
+	min-height: 80px;
+	border-radius: 10px;
+	background-color: var(--panel-color);
+	border:1px solid var(--border-color);
+	color: var(--small-text-color);
+	font-size: 1em;
+	text-align: left;
+	display: inline-block;
+	margin: 10px;
+	padding: 10px; 
+	transition: all 1s;
+}
+
+.newTask{
+	width: 80%;
+	height: 25px;
+	display:block;
+	float: left;
+	margin: 10px;
+}
